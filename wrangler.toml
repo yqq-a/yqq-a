@@ -1,0 +1,19 @@
+name = "cloudflare-worker-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# 可选：环境变量配置
+# [env.production.vars]
+# API_KEY = "your-api-key"
+
+# 可选：KV 存储配置
+# [[kv_namespaces]]
+# binding = "USERS_KV"
+# id = "your-kv-namespace-id"
+# preview_id = "your-preview-kv-namespace-id"
+
+# 可选：D1 数据库配置
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "users-db"
+# database_id = "your-database-id"
